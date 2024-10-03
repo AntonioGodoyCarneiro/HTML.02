@@ -14,17 +14,22 @@
     background-size: cover;
 }
 
+.menu_principal ul{
+    list-style: none; /* retirar as bolinhas do tópico*/
+
+}
+
 .menu_principal ul li{
-    display: inline-block;
+    display: inline-block; /* remover a linha azul do link*/
 }
 
 .menu_principal ul li a{
     color: white;
-    text-decoration: none;
-    text-transform: uppercase;
+    text-decoration: none; /* remover a linha azul do link*/
+    text-transform: uppercase; /*uppercase converte tudo para maiúsculo*/
     padding: 5px 20px;
-    border: 1px solid transparent;
-    transition: 0.06s ease;
+    border: 1px solid transparent; /* Define uma borda invisível ao redor do link.*/
+    transition: 0.06s ease; /* define a velocidade em que o fundo branco vai aparecer no menu*/
 }
 
 .menu_principal ul li a:hover{
@@ -43,3 +48,38 @@
     justify-content: space-between;
 }
 
+h1{
+    font-size: 70px;
+    color: white;
+    margin: 30px;
+}
+.btn{
+    border: 1px solid white;
+    padding: 10px 80px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    margin: 10px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.conteudo_banner{
+    height: 438px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#passeios{
+    background-color: beige;
+}
+
+.galeria{
+    width: 314px;
+    height: 368px;
+    
+}
