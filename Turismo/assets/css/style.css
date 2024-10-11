@@ -47,9 +47,9 @@
 
 /* Estilo para a categoria, onde está o logo e o menu */
 .categoria {
-    display: flex; /* Habilita o uso de flexbox */
-    align-items: center; /* Alinha verticalmente os itens ao centro */
-    justify-content: space-between; /* Espaça os itens uniformemente */
+        display: flex; /* Habilita o uso de flexbox */
+        align-items: center; /* Alinha verticalmente os itens ao centro */
+        justify-content: space-between; /* Espaça os itens uniformemente */
 }
 
 /* Estilo para o título principal */
